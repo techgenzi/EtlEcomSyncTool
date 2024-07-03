@@ -1,0 +1,1 @@
+pm2 start ./GstFiling.exe --interpreter none --name "GstTools" --instances 1

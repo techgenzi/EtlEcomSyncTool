@@ -1,0 +1,43 @@
+{
+  "name": "catoolsexpress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "nodemon index.js",
+    "build": "esbuild server.ts --bundle --platform=node --outfile=server-out.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "pkg": {
+    "scripts": [
+      "node_modules/selenium-webdriver/**/*.js",
+      "node_modules/sqlite3/lib/binding/napi-v6-win32-unknown-x64/node_sqlite3.node"
+    ],
+    "assets": [
+      "public/**/*",
+      "./node_modules/axios/dist/node/axios.cjs",
+      "node_modules/selenium-webdriver/**/*.js"
+    ]
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.5.10",
+    "axios": "^1.6.5",
+    "body-parser": "^1.20.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mysql2": "^3.0.1",
+    "selenium-webdriver": "^4.11.1",
+    "sequelize": "^6.28.0",
+    "sqlite3": "^5.1.4",
+    "ws": "^8.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "sequelize-cli": "^6.6.0"
+  }
+}

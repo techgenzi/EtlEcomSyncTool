@@ -1,0 +1,12 @@
+CHROME_DRIVER_PATH=chromedriver.exe
+IPSS_LOGIN_API=https://vtm-devapi.techgenzi.com/users/login
+IPSS_PING_USER_API=https://vtm-devapi.techgenzi.com/users/ping-user/
+PORTAL_URL=https://nextjs-web-wheat.vercel.app/
+PURCHASE_ORDERS_API=http://127.0.0.1:3000/api/portal/test
+CUSTOMER_ORDERS_API=http://127.0.0.1:3000/api/portal/test
+PROCESS_ETL_API=https://vtm-devapi.techgenzi.com/ipss-etl/process-data/
+PURCHASE_ORDER_HEADER=puchaseOrders
+CUSTOMER_ORDER_HEADER=customerOrders
+OPEN_BROWSER=true
+USER_AGENT="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+FRONTEND_URL=http://localhost:3000

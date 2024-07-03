@@ -1,0 +1,14 @@
+1. Provide shortcut for quick access
+2. They can do any task from within ipss tool 
+3. Data retention policies 
+4. Show connection status in our tool 
+5. Show last updated time
+6. Circuit breaker implementation
+7. Excel import
+8. Configuring the schedulers (connectors)
+9. Manage resync logics
+
+Personas:
+1. Production manager 
+2. EDP clerk
+3. 
